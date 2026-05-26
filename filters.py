@@ -13,9 +13,9 @@ random.seed(42)
 np.random.seed(42)
 
 BASE_DIR  = os.path.dirname(__file__)
-DATA_DIR  = os.path.join(BASE_DIR, "data")
-CSV_PATH  = os.path.join(DATA_DIR, "gadm41_PAK_shp.csv")
-ZIP_PATH  = os.path.join(DATA_DIR, "gadm41_PAK_shp.zip")
+DATA_DIR  = BASE_DIR
+CSV_PATH  = os.path.join(BASE_DIR, "gadm41_PAK_shp.csv")
+ZIP_PATH  = os.path.join(BASE_DIR, "gadm41_PAK_shp.zip")
 
 def _read_dbf_raw(zf, filename):
     with zf.open(filename) as f:
