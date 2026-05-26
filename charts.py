@@ -12,12 +12,12 @@ import pandas as pd
 import numpy as np
 
 # ── Palette & style ───────────────────────────────────────────────────────────
-PALETTE   = ["#e94560","#f5a623","#00b4d8","#4cc9f0","#7209b7","#3a86ff","#06d6a0","#ffd166"]
-BG_DARK   = "#1a1a2e"
-BG_CARD   = "#16213e"
-TEXT_CLR  = "#e0e0e0"
-GRID_CLR  = "#0f3460"
-ACCENT    = "#e94560"
+PALETTE   = ["#1b4f72","#2e86c1","#148f77","#d35400","#7d3c98","#1a5276","#117a65","#b7950b"]
+BG_DARK   = "#ffffff"
+BG_CARD   = "#f8f9fa"
+TEXT_CLR  = "#1a1a2e"
+GRID_CLR  = "#e0e0e0"
+ACCENT    = "#1b4f72"
 
 def _style(fig, ax_list=None):
     fig.patch.set_facecolor(BG_CARD)
